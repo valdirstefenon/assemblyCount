@@ -106,7 +106,7 @@ class GenomeAnalyzerApp:
     def load_fasta(self):
         self.filepath = filedialog.askopenfilename(
             title="Select FASTA file",
-            filetypes=[("FASTA Files", "*.fasta *.fa *.fna *.fasta.gz *.fa.gz *.fna.gz"),
+            filetypes=[("FASTA Files", "*.fasta *.fa *.fna *.fas *.fasta.gz *.fa.gz *.fna.gz *.fas.gz"),
                        ("All Files", "*.*")]
         )
         if self.filepath:
